@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Barlow";
+    src: url("../assets/fonts/Barlow-Medium.woff2") format("woff2");
+    font-weight: medium;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Heebo";
+    src: url("../assets/fonts/Heebo-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #F0F4F4;
+}
+
+.first-name {
+    font-size: 72px;
+    font-family: "Barlow";
+    color: #3E54A3;
+    font-weight: medium;
+    line-height: 100%;
+}
+
+.text-1,
+.text-2 {
+    font-size: 24px;
+    line-height: 160%;
+    color: #1C2022;
+    font-family: "Heebo";
+    font-weight: normal;
+}
+
+.text-2 {
+    font-size: 20px;
+}
+
+.name {
+    font-size: 32px;
+    line-height: 100%;
+    font-family: "Barlow";
+    font-weight: 600;
+    color: #1C2022;
+}
+
+.link-1 {
+    font-weight: 700;
+    color: #1C2022;
+}
+
+.link-2 {
+    color: #1C2022;
+}
+
+.link-1:hover,
+.link-2:hover {
+    color: #3E54A3;
+}
+
+.link-0 {
+    text-decoration: none;
+    color: #3E54A3;
+}
+
+.pic-1 {
+    border: 30px solid #4A5568;
+    border-radius: 3%;
+}
+
+.a-about {
+    text-decoration: none;
+    color: #1C2022;
+}
+
